@@ -1,0 +1,3 @@
+Runner:
+
+Runner is an infinite side scrolling game just for fun, you can run and have to jump your way avoiding the obstacles to score higher and cover large distances.
