@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>2e24c5f2-5c67-45ac-8a74-5166f603d04c</ProjectGuid>
+    <ProjectGuid>514cd488-d2f7-46fe-9612-423fa76737cd</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
@@ -44,7 +44,7 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateThumbprint>06053A43F5ABE095185051FF7431A6328806D73F</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>44FE593557E02EFD23EC8B33A7D6323F4496408C</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>Runner_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
@@ -66,6 +66,7 @@
     <None Include="Runner_TemporaryKey.pfx" />
     <Content Include="splashscreen.png" />
     <Content Include="about.html" />
+    <Content Include="support.html" />
     <Content Include="privacy.html" />
     <Content Include="WindowsStoreProxy.xml" />
   </ItemGroup>

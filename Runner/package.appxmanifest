@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="2e24c5f2-5c67-45ac-8a74-5166f603d04c" Version="1.0.0.0" Publisher="CN=ali.sufiyan" />
+  <Identity Name="514cd488-d2f7-46fe-9612-423fa76737cd" Version="1.0.0.0" Publisher="CN=ali.sufiyan" />
   <Properties>
     <DisplayName>Runner</DisplayName>
     <Description>Runner</Description>
-    <PublisherDisplayName>Ramez</PublisherDisplayName>
+    <PublisherDisplayName>Rameez</PublisherDisplayName>
     <Logo>app-storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -19,6 +19,9 @@
       <VisualElements DisplayName="Runner" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Runner" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
       </VisualElements>
     </Application>
   </Applications>
